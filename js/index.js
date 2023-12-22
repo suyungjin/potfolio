@@ -70,12 +70,12 @@ btn.item(0).addEventListener('click',function(){
  var tg2 = document.querySelectorAll('#certi dt, #certi dd');
 
     tg.style.left = '-100%';
-    tg.style.transition = "all 0.5s";
+    tg.style.transition = "all 0s";
 
     setTimeout(function(){
         tg.appendChild(tg2.item(0));
         tg.style.left="0%";
-        tg.style.transition = "all 0.5s";
+        tg.style.transition = "all 0s";
     },1000);
 });
 
@@ -92,7 +92,7 @@ btn.item(1).addEventListener('click',function(){
     tg.style.left="100%";
     setTimeout(function(){
         tg.style.left='0%';
-        tg.style.transition = 'all 0.5s';
+        tg.style.transition = 'all 0s';
     },1000);
 },);
 
@@ -101,7 +101,7 @@ var state=setInterval(()=>{
  var tg2 = document.querySelectorAll('#certi dt, #certi dd');
 
     tg.style.left = '100%';
-    tg.style.transition = "all 0.5s";
+    tg.style.transition = "all 0s";
     setTimeout(function(){
         tg.appendChild(tg2.item(0));
         tg.style.left="0%";
