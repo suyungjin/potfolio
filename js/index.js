@@ -271,7 +271,11 @@ VanillaTilt.init(document.querySelector(".multi2"), {
 });
 // 메뉴
 $('#gnb #bar').click(function(){
-    $('#gnb ul').toggle('active').css({'right':'0%'});
+    if($('#gnb ul').hasClass('on')){
+        $('#gnb ul').removeClass('on');
+    }else{
+        $('#gnb ul').addClass('on');
+    }
 });
 // 리사이즈
 $(window).resize(function(){
@@ -279,6 +283,6 @@ $(window).resize(function(){
     if(w > 1200){
         $('#gnb ul').css({'display':'flex','flex-direction':'row'});
     }else{
-        $('#gnb ul').css({'display':'flex','flex-direction':'column','right':'-100%'});
+        $('#gnb ul').css({'display':'flex','flex-direction':'column'});
     }
 });
