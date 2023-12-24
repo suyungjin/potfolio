@@ -450,7 +450,7 @@ flex-direction: column;
     border-radius: 2em;
 }
 #wrap .section:nth-of-type(4) li:nth-of-type(1){
-    background: url(../images/퍼피엔유_pc.jpeg)top/cover;
+    background: url(../images/가디언즈오브갤럭시3_메인작업.jpg)top/cover;
     background-size: 100%;
     transition: all 0.5s;
 }
@@ -467,7 +467,7 @@ flex-direction: column;
     border-radius: 2em;
 }
 #wrap .section:nth-of-type(4) li:nth-of-type(2){
-    background: url(../images/스파이더맨_메인작업.jpeg)top/cover;
+    background: url(../images/퍼피엔유_pc.jpeg)top/cover;
     background-size: 100%;
     transition: all 0.5s;
 }
