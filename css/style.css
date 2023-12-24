@@ -1221,16 +1221,17 @@ height: 100%;
     #gnb ul{
         width: 50%;
         height: 100vh;
-        display: none;
+        display: block;
         margin:auto;
         background: black;
         opacity: 0.8;
         position: absolute;
         top: 0;
-        right: 0;
+        right: -50%;
+        transition: all 0.5s;
     }
-    #gnb ul.active{
-        display: block;
+    #gnb ul.on{
+        right: 0;
     }
     #gnb li:nth-of-type(1){
         margin-top: 20%;
