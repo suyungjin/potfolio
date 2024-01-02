@@ -271,10 +271,10 @@ flex-direction: column;
     position: relative;
 }
 #wrap .section:nth-of-type(3) ul{
-   width:90%;display: flex; flex-wrap: wrap;margin:auto;margin-top: 8vh;
+   width:75%; display: flex; flex-wrap: wrap; margin:auto; margin-top: 8vh;
 }
 #wrap .section:nth-of-type(3) li{
-    flex: 0 1 380px; margin: auto;margin-bottom: 2%; height: 380px; background: transparent; border-radius: 2rem;
+    flex: 0 1 380px; margin: auto; margin-bottom: 2%; height: 380px; background: transparent; border-radius: 2rem;
 }
 #wrap .section:nth-of-type(4){
     background: burlywood;
